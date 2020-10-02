@@ -25,9 +25,9 @@
 
 use strict;
 use warnings;
-use Nagios::Plugin;
+use Monitoring::Plugin;
 
-my $np = Nagios::Plugin->new(
+my $np = Monitoring::Plugin->new(
     usage     => "Usage: %s\n",
     version   => '0.0.1',
     plugin    => $0,
